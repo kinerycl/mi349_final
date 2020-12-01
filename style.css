@@ -11,6 +11,7 @@ img {
 
 h1 {
     margin: 5px 0; 
+    color:rgb(204, 0, 0);
 }
 
 h2 {
@@ -36,7 +37,16 @@ h2 {
     height: 10%;
     padding: 10% 0% 0% 0%;
     border: 4px solid black;
-    margin: 100px auto;
+    margin: 100px auto 30px auto;
+}
+
+#text {
+    background-color:rgb(243,243,243);
+    width: 90%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    padding: 1%;
+    margin-bottom:10px;
 }
 
 .about {
@@ -44,8 +54,8 @@ h2 {
     background-color:rgba(34, 34, 34, .9);
     text-align: center;
     box-shadow: rgba(0,0,0,0.3) 0 0 20px;
-    padding: 10% 0% 0% 0%;
-    margin: 5%;
+    padding: 10% 0% 3% 0%;
+    margin: 2%;
 }
 
 .card .avatar {
@@ -83,6 +93,11 @@ h2 {
     text-align: center;
     padding:5px;
     font-size: 2em;
+}
+
+#text a:-webkit-any-link {
+    color: #222;
+    cursor: pointer;
 }
 
 a:-webkit-any-link {
