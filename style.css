@@ -2,7 +2,7 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: #892916;
     color: #222;
-    margin-top: 100px;
+    margin-top:0px;
 }
 
 img {
@@ -51,4 +51,21 @@ h2 {
 .contacts li a img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+}
+
+.sticky {
+    position: sticky;
+    top:0px;
+    background-color: #222;
+    color: #f3f3f3;
+    margin-bottom:90px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    padding:5px;
+}
+
+a:-webkit-any-link {
+    color: #aaa;
+    cursor: pointer;
 }
