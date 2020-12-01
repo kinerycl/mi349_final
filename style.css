@@ -19,12 +19,12 @@ h2 {
 }
 
 .content {
-    background-color:rgba(170, 170, 170, 0.6);
-    border-radius: 15px;
+    background-color:rgba(170, 170, 170, 0.2);
+    /*border-radius: 15px;*/
     width: 90%;
     border: 5px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 .card {
@@ -39,11 +39,20 @@ h2 {
     margin: 100px auto;
 }
 
+.about {
+    border-radius: 15px;
+    background-color:rgba(34, 34, 34, .9);
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.3) 0 0 20px;
+    padding: 10% 0% 0% 0%;
+    margin: 5%;
+}
+
 .card .avatar {
     width: 250px;
     border-radius: 50%;
     margin-top: -200px;
-    border: 4px solid #222;
+    border: 4px solid black;
 }
 
 .contacts {
@@ -68,11 +77,12 @@ h2 {
     top:0px;
     background-color: #222;
     color: #f3f3f3;
-    margin-bottom:25px;
+    margin-bottom: 10px;
     margin-left: -10px;
     margin-right: -10px;
     text-align: center;
     padding:5px;
+    font-size: 2em;
 }
 
 a:-webkit-any-link {
@@ -87,6 +97,19 @@ a:-webkit-any-link {
         border-radius: 50%;
         margin-top: -300px;
         border: 4px solid #222;
+    }
+
+    .sticky {
+        position: sticky;
+        top:0px;
+        background-color: #222;
+        color: #f3f3f3;
+        margin-bottom: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        text-align: center;
+        padding:5px;
+        font-size: 1em;
     }
    
 }
