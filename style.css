@@ -35,13 +35,13 @@ h2 {
     box-shadow: rgba(0,0,0,0.3) 0 0 20px;
     width: 70%;
     height: 10%;
-    padding: 10% 0% 0% 0%;
+    padding: 3% 0% 0% 0%;
     border: 4px solid black;
     margin: 100px auto 30px auto;
 }
 
 #text {
-    background-color:rgb(243,243,243);
+    background-color:rgb(243,243,243, .8);
     width: 90%;
     margin: 10px auto 10px auto;
     text-align: left;
@@ -58,13 +58,22 @@ h2 {
     margin: 2%;
 }
 
+#about-page {
+    padding: 2% 0% 3% 0%;
+}
+
+#about-title { 
+    color: #f3f3f3;
+    font-size: 3em;
+}
+
 .img_container { 
     float:left;
     border-radius: 0%;
     width: 250px;
     border-radius: 50%;
     border: 4px solid black;
-    margin: 10px;
+    margin: 30px;
     border-radius: 0%;
 }
  
@@ -143,5 +152,14 @@ a:-webkit-any-link {
         text-align: center;
         padding:5px;
         font-size: 1em;
+    }
+
+    .img_container { 
+        float: none;
+        width: 200px;
+        border: 4px solid black;
+        margin: 5% auto 5% auto;
+        border-radius: 0%;
+        display:block;
     }
 }
